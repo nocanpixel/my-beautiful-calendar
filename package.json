@@ -1,14 +1,15 @@
 {
-  "name": "@nocanpixel/my-beautiful-calendar",
+  "name": "@nocan/my-beautiful-calendar",
   "version": "1.0.0",
-  "description": "",
+  "description": "a full calendar module",
   "type": "module",
+  "source": "src/index.tsx",
   "scripts": {
     "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "nocanpixel",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.15.0",
@@ -17,5 +18,59 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "vite": "^4.1.4"
-  }
+  },
+  "main": "index.ts",
+  "dependencies": {
+    "color-name": "^1.1.3",
+    "browserslist": "^4.21.5",
+    "ansi-styles": "^3.2.1",
+    "caniuse-lite": "^1.0.30001464",
+    "chalk": "^2.4.2",
+    "convert-source-map": "^1.9.0",
+    "debug": "^4.3.4",
+    "color-convert": "^1.9.3",
+    "csstype": "^3.1.1",
+    "electron-to-chromium": "^1.4.328",
+    "escalade": "^3.1.1",
+    "escape-string-regexp": "^1.0.5",
+    "esbuild": "^0.16.17",
+    "estree-walker": "^2.0.2",
+    "function-bind": "^1.1.1",
+    "gensync": "^1.0.0-beta.2",
+    "globals": "^11.12.0",
+    "has": "^1.0.3",
+    "has-flag": "^3.0.0",
+    "is-core-module": "^2.11.0",
+    "js-tokens": "^4.0.0",
+    "json5": "^2.2.3",
+    "loose-envify": "^1.4.0",
+    "jsesc": "^2.5.2",
+    "lru-cache": "^5.1.1",
+    "node-releases": "^2.0.10",
+    "ms": "^2.1.2",
+    "nanoid": "^3.3.4",
+    "path-parse": "^1.0.7",
+    "picocolors": "^1.0.0",
+    "react-refresh": "^0.10.0",
+    "picomatch": "^2.3.1",
+    "postcss": "^8.4.21",
+    "resolve": "^1.22.1",
+    "rollup": "^3.19.1",
+    "supports-color": "^5.5.0",
+    "semver": "^6.3.0",
+    "scheduler": "^0.23.0",
+    "source-map-js": "^1.0.2",
+    "supports-preserve-symlinks-flag": "^1.0.0",
+    "to-fast-properties": "^2.0.0",
+    "update-browserslist-db": "^1.0.10",
+    "yallist": "^3.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nocanpixel/my-beautiful-calendar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nocanpixel/my-beautiful-calendar/issues"
+  },
+  "homepage": "https://github.com/nocanpixel/my-beautiful-calendar#readme"
 }
