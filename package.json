@@ -1,9 +1,17 @@
 {
   "name": "my-beautiful-calendar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a full calendar module",
   "type": "module",
-  "source": "src/index.tsx",
+  "files": ["dist"],
+  "main": "./dist/my-beautiful-calendar.umd.cjs",
+  "module": "./dist/my-beautiful-calendar.js",
+  "exports": {
+    ".": {
+      "import": "./dist/my-beautiful-calendar.js",
+      "require": "./dist/my-beautiful-calendar.umd.cjs"
+    }
+  },
   "scripts": {
     "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,7 +27,6 @@
     "react-dom": "^18.2.0",
     "vite": "^4.1.4"
   },
-  "main": "index.ts",
   "dependencies": {
     "color-name": "^1.1.3",
     "browserslist": "^4.21.5",
