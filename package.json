@@ -1,5 +1,5 @@
 {
-  "name": "@nocan/my-beautiful-calendar",
+  "name": "my-beautiful-calendar",
   "version": "1.0.0",
   "description": "a full calendar module",
   "type": "module",
