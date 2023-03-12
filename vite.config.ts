@@ -8,8 +8,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/index.tsx'),
       name: 'MyCalendar',
-      fileName: format => `my-beautiful-calendar.${format}.js`,
-      formats: ['es', 'cjs', 'umd', 'iife']
+      fileName: `my-beautiful-calendar`,
     },
     rollupOptions: {
       external: ['react', 'react-dom'],
