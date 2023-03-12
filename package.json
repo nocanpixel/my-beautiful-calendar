@@ -8,7 +8,7 @@
   ],
   "main": "./dist/my-beautiful-calendar.umd.cjs",
   "module": "./dist/my-beautiful-calendar.js",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/my-beautiful-calendar.d.ts",
   "exports": {
     ".": {
       "import": "./dist/my-beautiful-calendar.js",
