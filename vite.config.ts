@@ -1,9 +1,11 @@
 import { defineConfig } from 'vite';
-import reactRefresh from '@vitejs/plugin-react-refresh';
 import { resolve } from 'path'
+import dts from 'vite-plugin-dts';
 
 export default defineConfig({
-  plugins: [reactRefresh()],
+  plugins: [dts({
+    insertTypesEntry: true,
+  })],
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.tsx'),

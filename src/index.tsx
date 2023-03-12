@@ -5,5 +5,7 @@ interface MyComponentProps {
 }
 
 export const MyComponent = ({ text }: MyComponentProps) => {
-  return <div>{text}</div>;
+  return (
+    <div>{text}</div>
+  );
 };
