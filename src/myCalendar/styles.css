@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.calendar-container {
+    background-color: rgb(230, 230, 230);
+    padding: 1em;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    width: 300px;
+}
+
+.calendar-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.month-year {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.daysof-week {
+    font-weight: bold;
+    color: #585e6b;
+}
+
+.calendar-header span {
+    font-weight: bold;
+    color: #2D3648;
+}
+
+.calendar-controls {
+    display: flex;
+    gap: 1em;
+}
+
+.button-controls {
+    border-radius: 50%;
+    border: none;
+    padding: 5px;
+    background-color: transparent;
+    color: #2D3648;
+    cursor: pointer;
+}
+
+.button-controls:hover {
+    background-color: #2d364859;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    color: white;
+}
+
+.icon-arrow-left, .icon-arrow-right {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendar-body, .calendar-week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 1.5em;
+}
+
+.days {
+    background-color: #cacaca;
+    height: 35px;
+    width: 35px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: #2D3648;
+    font-weight: 400;
+}
+
+.empty {
+    background-color: transparent;
+}
+
+.today {
+    background-color: coral;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    color: white;
+}
